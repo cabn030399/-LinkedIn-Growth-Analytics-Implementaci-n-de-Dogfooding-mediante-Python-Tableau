@@ -23,6 +23,7 @@ El reporte crudo de LinkedIn suele presentar problemas de formato y desfases tem
 
 Normalizar nombres de columnas y tipos de datos (Fechas, Enteros)
 Clasificar los posts de forma automatizada mediante palabras clave en la columna Nicho (Sports Analytics, Business Intelligence, o General)
+
 Fase 2: Reglas de Negocio y Control de Calidad
 Durante el Diagnóstico de la Línea Base, se detectó una anomalía en los datos de origen: las impresiones igualaban exactamente a las interacciones en posts nuevos, arrojando un Engagement Rate artificial del 100%.
 
