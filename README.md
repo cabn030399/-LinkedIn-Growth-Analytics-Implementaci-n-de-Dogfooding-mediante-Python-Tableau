@@ -56,3 +56,18 @@ El proceso de cruce de datos (`LEFT JOIN`) identificó que solo 24 de las public
 Este proyecto demuestra que la analítica de datos es una herramienta de ejecución inmediata. Al procesar mi propia actividad, transformé datos crudos en una ventaja competitiva. El resultado no es solo un tablero estético, sino un marco de trabajo de Business Intelligence real para la toma de decisiones estratégicas de marca.
 
 
+## 📁 Estructura del Código en el Repositorio
+
+Para transparentar el proceso de desarrollo y la evolución de este proyecto de Business Intelligence, el repositorio cuenta con dos versiones del bloque de código:
+
+### 1. 📈 `pipeline_v2_completo.ipynb` (Versión Actualizada - Pipeline de Producción)
+Este es el core técnico del proyecto. Un notebook de Jupyter estructurado bajo buenas prácticas de ingeniería de datos para procesar el volumen real de más de 80 publicaciones:
+* **Módulo ETL Avanzado:** Separa de forma automatizada los bloques paralelos del reporte de LinkedIn (Interacciones e Impresiones) usando posicionamiento de matrices (`.iloc`).
+* **Decodificación de URLs Web:** Implementa un limpiador con la librería `urllib.parse` y expresiones regulares (`Regex`) que remueve el encoding web (`%3A`) y extrae un `Post_ID` numérico único. Esto soluciona de raíz el error de desalineación de enlaces y une el historial con el rendimiento real sin pérdida de registros.
+* **Procesamiento de Texto de Vanguardia:** Ejecuta un clasificador semántico basado en `numpy.select` que escanea los textos (`ShareCommentary`) y segmenta de manera lógica los nichos de *Sports Analytics*, *Business Intelligence* y contenido general.
+
+### 2. 🧪 `analisis_inicial_3_posts.ipynb` (Versión Histórica - Prueba de Concepto)
+Mantiene el registro de la primera iteración del proyecto (MVP). Fue desarrollado de manera local para validar la hipótesis inicial utilizando únicamente una muestra controlada de 3 publicaciones. Sirve como bitácora de desarrollo para demostrar la escalabilidad de la arquitectura actual.
+
+
+
