@@ -55,3 +55,4 @@ El proceso de cruce de datos (`LEFT JOIN`) identificó que solo 24 de las public
 ## 🚀 Conclusión del Portafolio
 Este proyecto demuestra que la analítica de datos es una herramienta de ejecución inmediata. Al procesar mi propia actividad, transformé datos crudos en una ventaja competitiva. El resultado no es solo un tablero estético, sino un marco de trabajo de Business Intelligence real para la toma de decisiones estratégicas de marca.
 
+
